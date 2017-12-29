@@ -1,11 +1,11 @@
 board = ["o","x"," "," "," "," "," "," "," "]
 
 def display_board(board)
-  row1 = puts " #{board[1]} | #{board[2]} | #{board[3]} "
+  row1 = puts " #{board[0]} | #{board[1]} | #{board[2]} "
   row2 = puts "-----------"
-  row3 = puts " #{board[4]} | #{board[5]} | #{board[6]} "
+  row3 = puts " #{board[3]} | #{board[4]} | #{board[5]} "
   row4 = puts "-----------"
-  row5 = puts " #{board[7]} | #{board[8]} | #{board[9]} "
+  row5 = puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 display_board(board)
