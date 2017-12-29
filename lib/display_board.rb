@@ -7,3 +7,5 @@ def display_board(board)
   row4 = puts "-----------"
   row5 = puts " #{board[7]} | #{board[8]} | #{board[9]} "
 end
+
+display_board(board)
